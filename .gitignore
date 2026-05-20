@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep structure, ignore large/local files)
+data/raw/*
+data/cleaned/*
+# data/processed/*
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/processed/.gitkeep
+
+# SQL exports
+sql/exports/*
+!sql/exports/.gitkeep
+
+# Environment & secrets
+.env
+.env.*
+*.pem
+credentials.json
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Excel / Office temp
+~$*.xlsx
+~$*.xls
+~$*.pptx
+
+# Logs
+*.log
